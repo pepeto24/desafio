@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Lista de Usuários</title>
+</head>
+<body>
+
+    <h3>Searching Users</h3>
+
+    <h4 id="loading">Searching...</h4>
+
+    <form>
+        <input id="inputFind" type="search" placeholder="Input a user... " disabled/>
+        <button type="button" id="btnFind" disabled>Search</button>
+    </form>
+
+    <div class="users-container">
+
+        <div class="userList">
+
+            <h5><span id="countUsers">No users found</span></h5>
+            <div id="tabUsers"></div>
+
+        </div>
+
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

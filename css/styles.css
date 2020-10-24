@@ -1,0 +1,88 @@
+.body{
+    padding: 20px;
+    background: blue;
+}
+
+h3{
+    font-size: 1.em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+h4{
+    font-size: 1.em;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+}
+
+form{
+    display: flex;
+}
+
+#inputFind{
+    padding-left: 20px;
+}
+
+#btnFind{
+    margin-left: 10px;
+    padding: 10px;
+    font-weight: bold;
+    box-shadow: 2px 2px 1px 0 #000;
+}
+
+#btnFind:hover{
+    background: rgb(148, 25, 25);
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    margin: 10px 0 10px 0 auto;
+    border-radius: 50%;
+}
+
+.users-container{
+    display: flex;
+    margin-top: 40px;
+}
+
+h5{
+    text-align: center;
+    text-justify: center;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+.user{
+    display: flex; 
+    align-items: center;
+    margin-top: 6px;
+
+    padding: 10px;
+    padding-left: 5px;
+    width: auto;
+    border-radius: 1.5px;
+    box-shadow: 2px 2px 2px 0px #0005;
+    background-color: #0001;
+}
+
+.userList {
+    width: 100%;
+    background-color: #0001;
+    border-radius: 1px;
+    box-shadow: 1.5px 1px 2.5px 0px #26a69a;
+    padding: 5px 20px 15px 20px;
+    margin-right: 15px;
+    padding-bottom: 40px;
+}
+
+  
+
+
+
+
+
+
+
